@@ -7,8 +7,77 @@
 </head>
 <body>
     <script>
-        var alumni = "Ivan";
-        console.log("¡Hola, "+alumni);
+        let nombre = "Daniel"
+        let apellido = "Gloria"
+        let nombreCompleto = nombre + apellido
+        console.log(nombreCompleto);
+
+        // Entradas y salidas
+        /*let edad1 = prompt("¿Cuántos años tienes?")
+        let anioNacimiento = 2024 - edad1
+        console.log("Wow, Tu naciste en el año " + anioNacimiento + " deberias de ir a hacerte estudios, ya estas grande.")
+        */
+        // Tipos de datos
+        let numero = 10 // tipo de dato number
+        let mes = "Noviembre" //tipo de dato string
+        let bool = true // tipo de dato booleano
+        let arreglo = [1,2,3] // tipo array o arreglo
+        let nada; // tipo de dato any (se asigna su tipo de dato cuando este se defina 
+                  // a lo largo del codigo 
+        
+        // ejercicio en clase
+        let name = "jesus antonio";
+        let edad = "29";
+        let gusto = "Jugar futbol";
+        /*console.log(
+            "Hola mi nombre es " + name + "  y tengo " + edad + " años y me gusta " + gusto
+        );*/
+
+        let a = 583.23
+        let b = 33
+        
+        // Operadores mágicos
+        // suma
+        let suma = a + b
+        console.log("Suma: ", suma)
+
+        // resta
+        let resta = a - b
+        console.log("Resta: ", resta)
+
+        // division
+        let division = a / b
+        console.log("Division: ", division)
+
+        // multiplicacion
+        let multiplicacion = a * b
+        console.log("Multiplicacion: ", multiplicacion)
+
+        // division
+        let modulo = a % b
+        console.log("Modulo: ", modulo)
+
+        //comparadores
+        // mayor que
+        let mayor = a > b
+        console.log("A es mayor (>) que B: ", mayor)
+        // menor que
+        let menor = a < b
+        console.log("A es menor (<) que B: ", menor)
+
+        if (a > b) {
+            console.log("A es mayor")
+        } else {
+            console.log("A es menor")
+        }
+
+        let edad2 = prompt("¿Cuántos años tienes?")
+        if (edad2 < 18) {
+            console.log("Lo siento no puedes comprar alcohol")
+        } else {
+            console.log("Que vas a querer? tengo el vodka a 3x2")
+        }
+
     </script>
 </body>
 </html>
