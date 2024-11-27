@@ -1,6 +1,6 @@
 // ESTRUCTURA DE CONTROL CONDICIONAL IF
 
-let clima = prompt("Hace frio o calor?");
+let clima = "frio";
 
 if (clima === "frio") {
     console.log("Ponte un abrigo!")
@@ -25,6 +25,7 @@ El mesero solo te traerá una de esas opciones dependiendo de lo que elijas.
 
 En programación, eso sería algo así:
 */
+let opcion = "Pizza"
 if (opcion === "Pizza") {
     console.log("Has pedido una pizza.");
   } else if (opcion === "Pasta") {
@@ -53,3 +54,18 @@ Con else if, en cuanto una condición se cumple, ya no revisa las demás. 🎉
 En resumen, usa else if cuando tengas varias opciones posibles, pero solo quieras
  ejecutar una de ellas. ¡Es como elegir el platillo perfecto del menú!
 */
+
+// ESTRUCTURA DE CONTROL CICLICA FOR
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i)
+}
+
+for (let inicio = 0; inicio <= 100; inicio += 25) {
+    console.log("FOR tipo 1", inicio) 
+}
+
+for (let inicio = 0; inicio <= 100;) {
+    console.log("FOR tipo 2",inicio) 
+    inicio += 25
+}
