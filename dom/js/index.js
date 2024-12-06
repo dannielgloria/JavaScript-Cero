@@ -6,6 +6,9 @@ function cambiarTexto() {
 
 function cambiarColor() {
     const colorActual = document.body.style.backgroundColor;
+    //es un operador ternario
+    // condicion ? valor_si_verdadero : valor_si_falso
+
     document.body.style.backgroundColor = colorActual === "black" ? "white": "black";
 }
 
