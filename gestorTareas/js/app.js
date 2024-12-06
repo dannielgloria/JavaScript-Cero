@@ -46,3 +46,5 @@ document.getElementById("taskForm").addEventListener("submit", function (event) 
     event.target.reset()
 })
 
+
+// crear una funcion que elimine una tarea
