@@ -54,3 +54,21 @@ function deleteTask(id) {
     console.log("elimine la tarea con id : ", id )
     renderTask(); // Volver a renderizar/dibujar las tareas ya con el id eliminado
 }
+
+function deleteTask2(id) {
+    for (let i = 0; i < tasks.length; i++) {
+        if (tasks[i].id === id) {
+            tasks.splice(i, 1); // Elimina la tarea encontrada
+            break
+        }
+    }
+    renderTask();
+}
+
+function deleteTask3(id) {
+    const indice = tasks.findIndex(task => task.id === id);
+    if (indice !== -1) {
+        tasks.splice(i, 1);
+        renderTask();
+    }
+}
