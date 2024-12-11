@@ -26,6 +26,7 @@ function renderTask(){
             <div>
                 <h5>${task.title}</h5>
                 <p class="mb-1">${task.description}</p>
+                <button class="btn btn-danger btn-sm" onclick="deleteTask(${task.id})">eliminar</button>
             </div>
         `;
 
@@ -48,3 +49,8 @@ document.getElementById("taskForm").addEventListener("submit", function (event) 
 
 
 // crear una funcion que elimine una tarea
+function deleteTask(id) {
+    tasks = tasks.filter(task => task.id !== id); // Filtra las tareas elimando la que coincida con el id de la tarea selecionada
+    console.log("elimine la tarea con id : ", id )
+    renderTask(); // Volver a renderizar/dibujar las tareas ya con el id eliminado
+}
