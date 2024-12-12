@@ -1,4 +1,4 @@
-# Aprende JavaScript Desde Cero 🚀
+# Aprende JavaScript Desde Cero 🚀 s
 
 Este repositorio está diseñado para ayudarte a aprender y reforzar tus conocimientos de JavaScript desde cero. Con ejemplos prácticos, ejercicios interactivos y proyectos básicos, podrás dominar los conceptos fundamentales del lenguaje y su integración con tecnologías web.
 
